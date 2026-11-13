@@ -1,0 +1,329 @@
+{
+  "slug": "clinica-salus",
+  "negocio": {
+    "nome": "Clínica Salus",
+    "logo": "brand/logo.png",
+    "whatsapp": "5519999675900",
+    "telefone": "(19) 3729-5900",
+    "funcionamento": {
+      "seg": "07:00-18:00",
+      "ter": "07:00-18:00",
+      "qua": "07:00-18:00",
+      "qui": "07:00-18:00",
+      "sex": "07:00-18:00",
+      "sab": "07:00-13:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim Londres · Campinas",
+        "endereco": "R. José Rosolém, 145 – Jardim Londres, Campinas – SP, 13060-222",
+        "telefone": "(19) 3729-5900 · WhatsApp (19) 99967-5900",
+        "horario": "Seg a sex, 7h às 18h · sábado, 7h às 13h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#9a2323",
+    "brand2": "#7b1c1c",
+    "ink": "#333333",
+    "bg": "#ffffff",
+    "radius": "10px",
+    "registro": "clinico",
+    "fontDisplay": "Marcellus",
+    "fontBody": "Mulish",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "ecg",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Atendimentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Check-ups",
+            "href": "#check-ups"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Centro médico · Campinas",
+        "h1": "Consulta, exame e check-up sem precisar de plano",
+        "lead": "Mais de 20 especialidades, exames de laboratório e de imagem e check-ups com retorno incluído. Sem plano, sem mensalidade: você paga só o atendimento do dia.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver os check-ups",
+        "ctaSecundarioHref": "#check-ups",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da Clínica Salus, com o painel vermelho e o logo Salus Medicina Acessível",
+        "tarja": [
+          "4,7 no Google, 1.209 avaliações",
+          "Sem mensalidade e sem plano",
+          "De frente para a Estação Londres do BRT",
+          "Seg a sex 7h às 18h · sáb 7h às 13h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Clínico geral",
+          "Cardiologia",
+          "Ginecologia",
+          "Pediatria",
+          "Ortopedia",
+          "Dermatologia",
+          "Oftalmologia",
+          "Otorrino",
+          "Urologia",
+          "Endocrinologia",
+          "Gastroenterologia",
+          "Psicologia",
+          "Fisioterapia",
+          "Fonoaudiologia"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que os pacientes de Campinas já sabem",
+        "itens": [
+          {
+            "valor": "4,7",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "1.209",
+            "rotulo": "avaliações de pacientes",
+            "contar": 1209
+          },
+          {
+            "valor": "20+",
+            "rotulo": "especialidades no mesmo endereço",
+            "contar": 20
+          },
+          {
+            "valor": "R$ 0",
+            "rotulo": "de mensalidade"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Salus",
+        "texto": [
+          "A Salus foi pensada por sócias que vieram da saúde suplementar e conheciam bem o problema: quem não tem plano costuma esperar demais ou pagar caro por uma consulta particular.",
+          "A resposta foi uma clínica particular com preço acessível. Não é plano, não é cartão de desconto. Você marca, é atendido, paga no dia e volta quando precisar."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Clínica Salus, com balcão, cadeiras de espera e o logo na parede"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "O que dá para resolver na Salus",
+        "lead": "Do clínico geral ao exame de imagem, sem precisar rodar a cidade com o pedido na mão.",
+        "itens": [
+          {
+            "nome": "Consultas",
+            "descricao": "Clínico geral e especialistas, de pediatria a psiquiatria, com horário marcado.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Exames laboratoriais",
+            "descricao": "Coleta na própria clínica. O laboratório é a única parte da Salus que aceita convênio.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Exames por imagem",
+            "descricao": "Ultrassom e outros exames de imagem, na clínica ou em parceiros com valor acessível.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Exames do coração",
+            "descricao": "Eletrocardiograma, ecocardiograma e consulta com cardiologista.",
+            "icone": "batimento"
+          },
+          {
+            "nome": "Pequenos procedimentos",
+            "descricao": "Inserção e retirada de DIU, eletrocauterização, escleroterapia e outros feitos em consultório.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Terapias",
+            "descricao": "Fisioterapia, RPG, acupuntura, quiropraxia e fonoaudiologia.",
+            "icone": "coluna"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/checkups.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Como se marca",
+        "titulo": "Uma mensagem e o horário está na agenda",
+        "lead": "A recepção responde pelo WhatsApp com valor, horário e o que levar. Sem fila no telefone.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Clínica Salus",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Quanto fica uma consulta com cardiologista? Não tenho convênio."
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Aqui não precisa de convênio, você paga só a consulta. Vou te passar o valor certinho."
+          },
+          {
+            "de": "clinica",
+            "texto": "Temos horário quinta às 8h. Se o médico pedir eletro, dá para fazer aqui mesmo."
+          },
+          {
+            "de": "paciente",
+            "texto": "Pode marcar quinta. Pago com Pix?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Pode sim, no dia. Marcado! Chega uns 15 minutinhos antes, tá?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Você conta o que precisa",
+            "texto": "Pelo WhatsApp ou telefone. A recepção indica a especialidade certa ou o exame.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Horário marcado",
+            "texto": "A Salus não atende urgência: todo atendimento tem hora, o que evita espera.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Consulta",
+            "texto": "O médico examina, orienta e, se precisar, pede exames.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Exames e retorno",
+            "texto": "Boa parte dos exames é feita ali mesmo. Depois, o retorno para ler os resultados.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas de quem vai pela primeira vez",
+        "itens": [
+          {
+            "p": "A Salus atende convênio?",
+            "r": "Só o laboratório de análises clínicas. Consultas e os demais exames são particulares, com preço acessível."
+          },
+          {
+            "p": "Preciso pagar mensalidade?",
+            "r": "Não. A Salus não é plano de saúde nem cartão de desconto. Você paga só o atendimento que fizer."
+          },
+          {
+            "p": "Quanto custa a consulta?",
+            "r": "Varia conforme a especialidade. A recepção informa o valor na hora, pelo WhatsApp ou telefone."
+          },
+          {
+            "p": "Como posso pagar?",
+            "r": "No dia do atendimento, em dinheiro, Pix ou cartão de débito ou crédito."
+          },
+          {
+            "p": "Vocês atendem urgência?",
+            "r": "Não. Todo atendimento é com horário marcado. Em emergência, procure um pronto-socorro."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda a sexta, das 7h às 18h, e sábado, das 7h às 13h."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/chegar.html"
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua consulta ou seu check-up",
+        "lead": "Mande uma mensagem com o que você precisa. A recepção responde com valor e horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Clínica Salus · Salus Centro de Especialidades Médicas Ltda · CNPJ 41.876.347/0001-80 · Responsável técnica: Dra. Julissa Karen Pillco Aguilar, CRM/SP 253.557",
+        "links": [
+          {
+            "texto": "Check-ups",
+            "href": "#check-ups"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ],
+  "wow": {
+    "assinatura": "gradient-mesh"
+  }
+}

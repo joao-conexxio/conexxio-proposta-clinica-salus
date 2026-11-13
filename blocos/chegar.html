@@ -1,0 +1,36 @@
+<section class="blk-ch" id="como-chegar">
+  <div class="wrap">
+    <div class="blk-ch__texto">
+      <p class="blk-ch__eyebrow" data-reveal>Como chegar</p>
+      <h2 class="blk-ch__titulo" data-reveal>Desce do BRT e atravessa a rua</h2>
+      <p class="blk-ch__lead" data-acende>A Salus fica no Jardim Londres, na marginal da John Boyd Dunlop. Quem vem de ônibus não precisa de carro nem de baldeação a pé.</p>
+      <ol class="blk-ch__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-ch__ic"><!--icone:local--></span><div><strong>Estação Londres do BRT</strong><span>A clínica fica de frente para a estação.</span></div></li>
+        <li data-reveal style="--d:120ms"><span class="blk-ch__ic"><!--icone:check--></span><div><strong>Av. John Boyd Dunlop</strong><span>Na rua marginal, ao lado da Anhanguera, perto da FAC e do Covabra.</span></div></li>
+        <li data-reveal style="--d:240ms"><span class="blk-ch__ic"><!--icone:mao--></span><div><strong>Acessível</strong><span>Estrutura preparada para quem usa cadeira de rodas ou tem mobilidade reduzida.</span></div></li>
+      </ol>
+    </div>
+    <figure class="blk-ch__foto" data-reveal>
+      <!--foto:midia/corredor.jpg|Corredor da Clínica Salus com portas dos consultórios e cadeiras de espera-->
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-ch{padding-block:var(--sp-section)}
+.blk-ch__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-ch__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-ch__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.12rem;line-height:1.6;color:var(--ink);max-width:36rem}
+.blk-ch__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-ch__lista li{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-2);align-items:start;padding-top:var(--sp-2);border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
+.blk-ch__lista strong{display:block;font-family:var(--f-display);font-size:1.25rem;color:var(--ink)}
+.blk-ch__lista span{color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-ch__ic{display:inline-flex;width:2.1rem;height:2.1rem;color:var(--brand)}
+.blk-ch__ic svg{width:100%;height:100%}
+.blk-ch__foto{margin:var(--sp-5) 0 0}
+.blk-ch__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:calc(var(--radius) / 3)}
+@media (min-width:900px){
+  .blk-ch .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:var(--sp-6);align-items:center}
+  .blk-ch__foto{margin:0}
+}
+</style>
